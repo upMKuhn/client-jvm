@@ -65,6 +65,7 @@ data class Snapshot (
     val message: String? = null,
     val market_status: String? = null,
     val name: String? = null,
+    val ticker: String? = null,
     val type: String? = null, // Type of the asset: stocks, options, fx, crypto, indices.
     @SerialName("session") val session: SnapshotSession? = null,
 
